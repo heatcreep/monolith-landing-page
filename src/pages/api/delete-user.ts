@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { supabase } from "@/app/supabase-client";
+import { supabase } from "@/supabase-client";
 
 export default async function handler(
   req: NextApiRequest,
@@ -15,8 +15,8 @@ export default async function handler(
   );
 
   if (deleteError) {
-    res.redirect(307, "/delete-account-error")
+    res.redirect(307, "/delete-account-error");
   } else {
-    res.redirect('/delete-account-success');
+    res.redirect("/delete-account-success");
   }
 }
