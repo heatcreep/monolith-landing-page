@@ -69,7 +69,7 @@ export default function Privacy() {
                 Cookies are files with a small amount of data that are
                 commonly used as anonymous unique identifiers. These are sent
                 to your browser from the websites that you visit and are
-                stored on your device's internal memory.
+                stored on your device&apos;s internal memory.
             </p>
             <p>
                 This Service does not use these “cookies” explicitly. However,
@@ -124,7 +124,7 @@ export default function Privacy() {
                 services.
             </p>
             <br />
-            <p><strong>Children&#39;s Privacy</strong></p>
+            <p><strong>Children&apos;s Privacy</strong></p>
             <div>
                 <p>
                     These Services do not address anyone under the age of 13.

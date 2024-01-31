@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <>
-      <h1 className='text-3xl'>We're sorry to see you go!</h1>
+      <h1 className='text-3xl'>We&apos;re sorry to see you go!</h1>
       <p>
         To delete your account, please use the email registered with your account.<br />
         This will be the same email associated with your Discord account.</p>
